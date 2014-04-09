@@ -44,6 +44,7 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'annotate'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'backbone-on-rails'
