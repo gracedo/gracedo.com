@@ -32,26 +32,17 @@ var fadeIn = function() {
 //    });{}
 // }
 
-var hiremeZoom = function(scrollorama) {
-  scrollorama.animate('#hireme-text'), {
-    duration: 800,
-    property: 'zoom',
-    enablePin: false,
-    end: 2
-  }
-}
-
 var scrollMagicFxns = function() {
   // init controller
   var controller = new ScrollMagic();
-  var tweenHeaders = TweenMax.from("section #sec-header-move", 1, {marginRight: -900, ease: Back.easeOut});
+  // var tweenHeaders = TweenMax.from("section #sec-header-move", 1, {marginRight: -900, ease: Back.easeOut});
   var tweenHire = TweenMax.to('#hireme-text', 0.5, {scale: 3, ease: Back.easeOut});
                 
-  var sceneHeaders = new ScrollScene({duration: 200, offset: -100})
-    					.triggerHook("onCenter")
-    					.triggerElement("section #sec-header-move")
-  						.setTween(tweenHeaders)
-  						.addTo(controller);
+  // var sceneHeaders = new ScrollScene({duration: 200, offset: -100})
+//               .triggerHook("onCenter")
+//               .triggerElement("section #sec-header-move")
+//               .setTween(tweenHeaders)
+//               .addTo(controller);
   
   var sceneHire = new ScrollScene({triggerElement: '#hireme'})
                 .setTween(tweenHire)
