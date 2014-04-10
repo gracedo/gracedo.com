@@ -13,7 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.ui.all
-//= require jquery.scrollorama.js
+//= require jquery.scrollmagic.min.js
+//= require TweenMax.min.js
 //= require blur.min.js
 //= require bootstrap
 //= require underscore
