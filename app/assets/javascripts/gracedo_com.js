@@ -20,7 +20,12 @@ var animateScroll = function() {
   })
 }
 
+var fadeIn = function() {
+  $("body").delay(3).animate({ opacity: 1 }, 500);
+}
+
 $(document).ready(function(){
   GracedoCom.initialize();
+  fadeIn();
   animateScroll();
 });
