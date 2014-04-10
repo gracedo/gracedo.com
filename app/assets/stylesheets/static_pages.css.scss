@@ -36,10 +36,15 @@ div#photo {
   height: 300px;
   width: 300px;
   border: 1px #000000 solid;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
 }
 
 #project-container:hover {
-  background-color: rgba(143, 199, 163, 0.4);
+  background-color: rgba(143, 199, 163, 1);
+  opacity: 0.4;
 }
 
 #hireme {
