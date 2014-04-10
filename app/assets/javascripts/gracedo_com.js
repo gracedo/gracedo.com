@@ -44,21 +44,19 @@ var hiremeZoom = function(scrollorama) {
 var scrollMagicFxns = function() {
   // init controller
   var controller = new ScrollMagic();
-  var tween = TweenMax.to('#hireme-text', 0.5, {
-    scale: 3
-  });
+  debugger
+  var tweenHeaders = TweenMax.from("section #sec-header-move", 1, {marginRight: -900, ease: Back.easeOut});
+  var tweenHire = TweenMax.to('#hireme-text', 0.5, {scale: 3, ease: Back.easeOut});
+                
+  var sceneHeaders = new ScrollScene({duration: 200, offset: -100})
+    					.triggerHook("onCenter")
+    					.triggerElement("section #sec-header-move")
+  						.setTween(tweenHeaders)
+  						.addTo(controller);
   
-  var scene = new ScrollScene({ triggerElement: '#hireme'})
-                .setTween(tween)
+  var sceneHire = new ScrollScene({triggerElement: '#hireme'})
+                .setTween(tweenHire)
                 .addTo(controller);
-
-  // add multiple scenes at once
-  // var scene2;
-  // controller.addScene([
-  //     scene, // add above defined scene
-  //     scene2 = new ScrollScene({duration: 200}), // add scene and assign handler "scene2"
-  //     new ScrollScene({offset: 20}) // add anonymous scene
-  // ]);
 }
 
 $(document).ready(function(){
