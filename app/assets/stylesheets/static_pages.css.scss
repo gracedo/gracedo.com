@@ -1,3 +1,31 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#about, #contact, #projects {
+  display: block;
+  margin: 0 auto;
+  padding: 50px 180px;
+  width: 100%;
+  float: left;
+}
+
+#about {
+  background-color: #63A57B;
+  color: #ffffff;
+}
+
+#projects {
+  background-color: #F0F0F0;
+  color: #000000;
+}
+
+#contact {
+  background-color: #63A57B;
+  color: #ffffff;
+}
+
+#project-container {
+  height: 200px;
+  border: 1px #000000 solid;
+}
