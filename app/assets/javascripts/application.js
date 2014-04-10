@@ -17,9 +17,4 @@
 //= require underscore
 //= require backbone
 //= require gracedo_com
-
-
-
-
-
 //= require_tree .
