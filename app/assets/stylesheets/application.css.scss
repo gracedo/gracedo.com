@@ -63,7 +63,7 @@ h1 {
   font-weight: 500;
 }
 
-a.navlink:hover {
+a.navlink:hover:not(.navbar-brand) {
   font-weight: bold;
 }
 

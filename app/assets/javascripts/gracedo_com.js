@@ -12,6 +12,10 @@ var animateScroll = function() {
     event.preventDefault();
     var navbarHeight = 200;
     var target = $(event.target).text();
+    if($(event.target).text() === "gracedo") {
+      target = "about";
+    }
+    
     $('body, html').animate({scrollTop: ($('#'+target).offset().top - navbarHeight)}, 500);
   })
 }
