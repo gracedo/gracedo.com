@@ -16,7 +16,7 @@
 }
 
 #projects {
-  background-color: #F0F0F0;
+  background-color: #E8E8E8;
   color: #000000;
 }
 
@@ -26,6 +26,10 @@
 }
 
 #project-container {
-  height: 200px;
+  height: 250px;
   border: 1px #000000 solid;
+}
+
+#project-container:hover {
+  background-color: rgba(143, 199, 163, 0.4);
 }
