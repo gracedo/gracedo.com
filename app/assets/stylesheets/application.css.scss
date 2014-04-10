@@ -70,8 +70,13 @@ h1 {
   font-weight: 500;
 }
 
+.navbar-brand:hover {
+  text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);
+}
+
 a.navlink:hover:not(.navbar-brand) {
   font-weight: bold;
+//  text-shadow: 2px 2px 8px rgba(150, 150, 150, 1);
 }
 
 footer {
