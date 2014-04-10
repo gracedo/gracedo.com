@@ -26,7 +26,7 @@ var fadeIn = function() {
 
 var blurredNav = function() {
   $('.navbar').blurjs({
-    source: 'section',
+    source: 'body',
     radius: 30,
     overlay: 'rgba(0, 0, 0, .2)'
    });{}

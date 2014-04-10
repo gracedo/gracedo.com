@@ -54,6 +54,7 @@ h1 {
   font-size: 64px;
 }
 
+
 .navbar {
   padding-left: 10%;
   padding-right: 10%;
@@ -68,6 +69,20 @@ h1 {
 //  -ms-filter: blur(20px);
 //  filter: blur(20px);
 }
+
+//#blur {
+//  position: absolute;
+//  top: 0px;
+//  height: $navbar-height;
+//  background-color: rgba(232, 232, 232, 1);
+//  border: 3px black solid;
+//  
+//  -webkit-filter: blur(12px);
+//  -moz-filter: blur(12px);
+//  -o-filter: blur(12px);
+//  -ms-filter: blur(12px);
+//  filter: blur(12px);
+//}
 
 .navbar-brand {
   font-size: 78px;

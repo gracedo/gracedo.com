@@ -8,6 +8,7 @@
   padding: 80px 180px;
   width: 100%;
   float: left;
+  border-bottom: 1px rgba(255, 255, 255, 0.3) solid;
 }
 
 #about {
@@ -29,6 +30,16 @@ div#photo {
 #projects {
   background-color: #E8E8E8;
   color: #000000;
+}
+
+#project-container {
+  height: 300px;
+  width: 300px;
+  border: 1px #000000 solid;
+}
+
+#project-container:hover {
+  background-color: rgba(143, 199, 163, 0.4);
 }
 
 #hireme {
@@ -55,15 +66,6 @@ div#photo {
   width: 20%;
   border: 0px #000000 solid;
   padding-bottom: 40px;
-}
-
-#project-container {
-  height: 250px;
-  border: 1px #000000 solid;
-}
-
-#project-container:hover {
-  background-color: rgba(143, 199, 163, 0.4);
 }
 
 i:hover {
