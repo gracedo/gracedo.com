@@ -45,12 +45,11 @@ end
 # gem 'debugger', group: [:development, :test]
 
 group :development do
-  gem 'debugger'
+  # gem 'debugger'
   gem 'better_errors'
   gem 'binding_of_caller'
 end
 
-gem 'annotate'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'backbone-on-rails'
