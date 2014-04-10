@@ -41,16 +41,31 @@ var hiremeZoom = function(scrollorama) {
   }
 }
 
-$(document).ready(function(){
-  GracedoCom.initialize();  
-  // var scrollorama = $.scrollorama({ blocks: 'section' });
-  fadeIn();
+var scrollMagicFxns = function() {
+  // init controller
+  var controller = new ScrollMagic();
+  var tween = TweenMax.to('#hireme-text', 0.5, {
+    scale: 3
+  });
   
-  // scrollorama.onBlockChange(function() {
-  //   alert('You just scrolled to block#' + scrollorama.blockIndex);
-  // });
+  var scene = new ScrollScene({ triggerElement: '#hireme'})
+                .setTween(tween)
+                .addTo(controller);
+
+  // add multiple scenes at once
+  // var scene2;
+  // controller.addScene([
+  //     scene, // add above defined scene
+  //     scene2 = new ScrollScene({duration: 200}), // add scene and assign handler "scene2"
+  //     new ScrollScene({offset: 20}) // add anonymous scene
+  // ]);
+}
+
+$(document).ready(function(){
+  GracedoCom.initialize(); 
+  fadeIn();
+  scrollMagicFxns();
   
   // blurredNav();
   animateScroll();
-  hiremeZoom(scrollorama);
 });
