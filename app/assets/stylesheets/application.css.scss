@@ -18,7 +18,9 @@ $navbar-height: 200px;
 //$navbar-default-bg: #F0F0F0;
 $navbar-default-brand-hover-color: #ffffff;
 //$navbar-default-bg: rgba(255, 255, 255, 0.3);
-$navbar-default-bg: #88BD9B;
+$navbar-default-border: rgba(255, 255, 255, 0.3);
+//$navbar-default-bg: #88BD9B;
+$navbar-default-bg: rgba(143, 199, 163, 0.8);
 $navbar-default-link-hover-bg: transparent;
 $navbar-default-color: #ffffff;
 $navbar-default-link-color: #ffffff;
@@ -27,12 +29,21 @@ $navbar-default-link-hover-color: #ffffff;
 @import "bootstrap";
 
 body {
-  padding: $navbar-height;
+  padding-top: $navbar-height;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 14px;
   background-color: #63A57B;
   color: #ffffff;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 20px;
+//  background-color: #E3E3E3;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 12px;
+  color: #000000;
 }
 
 .navbar {
