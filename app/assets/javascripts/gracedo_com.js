@@ -44,7 +44,6 @@ var hiremeZoom = function(scrollorama) {
 var scrollMagicFxns = function() {
   // init controller
   var controller = new ScrollMagic();
-  debugger
   var tweenHeaders = TweenMax.from("section #sec-header-move", 1, {marginRight: -900, ease: Back.easeOut});
   var tweenHire = TweenMax.to('#hireme-text', 0.5, {scale: 3, ease: Back.easeOut});
                 
@@ -59,10 +58,17 @@ var scrollMagicFxns = function() {
                 .addTo(controller);
 }
 
+var tooltipInit = function() {
+  $(function () {
+    $("[data-toggle='tooltip']").tooltip();
+  });
+}
+
 $(document).ready(function(){
   GracedoCom.initialize(); 
   fadeIn();
   scrollMagicFxns();
+  tooltipInit();
   
   // blurredNav();
   animateScroll();
