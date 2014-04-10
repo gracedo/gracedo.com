@@ -24,8 +24,17 @@ var fadeIn = function() {
   $("body").delay(3).animate({ opacity: 1 }, 500);
 }
 
+var blurredNav = function() {
+  $('.navbar').blurjs({
+    source: 'section',
+    radius: 30,
+    overlay: 'rgba(0, 0, 0, .2)'
+   });{}
+}
+
 $(document).ready(function(){
   GracedoCom.initialize();
   fadeIn();
+  blurredNav();
   animateScroll();
 });
