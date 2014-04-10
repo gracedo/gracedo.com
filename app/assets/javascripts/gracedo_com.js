@@ -12,11 +12,11 @@ var animateScroll = function() {
     event.preventDefault();
     var navbarHeight = 200;
     var target = $(event.target).text();
-    if($(event.target).text() === "gracedo") {
-      target = "about";
+    if(target === "gracedo") {
+       $('body, html').animate({scrollTop: 0}, 500);
+    } else {
+      $('body, html').animate({scrollTop: ($('#'+target).offset().top - navbarHeight)}, 500);
     }
-    
-    $('body, html').animate({scrollTop: ($('#'+target).offset().top - navbarHeight)}, 500);
   })
 }
 
