@@ -5,7 +5,7 @@
 #about, #contact, #projects {
   display: block;
   margin: 0 auto;
-  padding: 50px 180px;
+  padding: 80px 180px;
   width: 100%;
   float: left;
 }
@@ -23,6 +23,12 @@
 #contact {
   background-color: #63A57B;
   color: #ffffff;
+}
+
+#contact-div {
+  float: left;
+  width: 20%;
+  border: 0px #000000 solid;
 }
 
 #project-container {
