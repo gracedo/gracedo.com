@@ -28,7 +28,21 @@
 
 div#photo {
   float: left;
-  margin: 10px 15px 2px 0px;
+//  background-image: url('IMG_9335.JPG');
+//  background-size: 100%;
+//  background-repeat: no-repeat;
+//  margin: 10px 15px 2px 0px;
+//  height: 400px;
+  width: 40%;
+}
+
+#about-words {
+//  background-image: url('about-words.png');
+//  background-size: 100%;
+//  background-repeat: no-repeat;
+  float: right;
+  width: 60%;
+//  height: 400px;
 }
 
 #about-content {
