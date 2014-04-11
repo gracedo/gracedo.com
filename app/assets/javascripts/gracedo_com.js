@@ -21,7 +21,7 @@ var animateScroll = function() {
 }
 
 var fadeIn = function() {
-  $("body").delay(3).animate({ opacity: 1 }, 500);
+  $("body").delay(3).animate({ opacity: 1 }, 800);
 }
 
 // var tintedProjects = function() {
