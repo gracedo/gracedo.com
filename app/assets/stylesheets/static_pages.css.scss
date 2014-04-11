@@ -35,7 +35,7 @@ div#photo {
 #project-container {
   height: 350px;
   width: 350px;
-  border: 1px #000000 solid;
+//  border: 1px #000000 solid;
   opacity: 1;
   transition: opacity .3s ease-in-out;
   -moz-transition: opacity .3s ease-in-out;
@@ -52,7 +52,7 @@ div#photo {
 }
 
 span.text-content {
-  background: rgba(143, 199, 163, 0.9);
+  background: rgba(94, 171, 181, 0.9);
   color: white;
   display: table;
   height: 350px;
@@ -83,6 +83,10 @@ span.text-content span {
 
 .cpp {
   background-image: url('cpp-thumb.jpg');
+}
+
+.tj {
+  background-image: url('tj-thumb.jpg');
 }
 
 #hireme {
