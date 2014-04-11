@@ -80,6 +80,11 @@ var blinkingText = function() {
 	});
 }
 
+var placeAboutText = function() {
+  var imgWidth = $('img.about-img').width();
+  $('#tagline').css("margin-left", imgWidth + 30);
+}
+
 $(document).ready(function(){
   GracedoCom.initialize(); 
   fadeIn();
@@ -87,6 +92,7 @@ $(document).ready(function(){
   scrollMagicFxns();
   tooltipInit();
   blinkingText();
+  placeAboutText();
   
   // blurredNav();
   animateScroll();
