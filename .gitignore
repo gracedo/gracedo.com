@@ -17,3 +17,6 @@
 
 # Ignore application configuration
 /config/application.yml
+
+# Ignore folder of stock images (to be edited and uploaded into assets folder)
+/stock_images_IGNORED
