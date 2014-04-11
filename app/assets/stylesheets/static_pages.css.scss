@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#about, #contact, #portfolio, #hireme {
+#about, #about-content, #contact, #portfolio, #hireme {
   display: block;
   margin: 0 auto;
   padding: 80px 180px;
@@ -25,6 +25,10 @@
 div#photo {
   float: left;
   margin: 10px 15px 2px 0px;
+}
+
+#about-content {
+  background-color: #5EABB5;
 }
 
 #portfolio {
