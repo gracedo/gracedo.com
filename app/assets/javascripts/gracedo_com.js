@@ -63,12 +63,30 @@ var tooltipInit = function() {
   });
 }
 
+var blinkingText = function() {
+  $(function() {
+    var x = 0;
+    setInterval(function() {
+      if(x === 0) {
+        $('.fa-terminal').css('color', '#63A57B');
+        x = 1;
+      } else {
+        if(x === 1) {
+          $('.fa-terminal').css('color', '#ffffff');
+          x = 0;
+        }
+      }
+    }, 500);
+	});
+}
+
 $(document).ready(function(){
   GracedoCom.initialize(); 
   fadeIn();
   // tintedProjects();
   scrollMagicFxns();
   tooltipInit();
+  blinkingText();
   
   // blurredNav();
   animateScroll();
