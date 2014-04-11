@@ -25,26 +25,31 @@
 #tagline {
   font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
   text-align: left;
+  font-size: 19px;
 }
 
-div#photo {
-  float: left;
-//  background-image: url('IMG_9335.JPG');
-//  background-size: 100%;
-//  background-repeat: no-repeat;
-//  margin: 10px 15px 2px 0px;
-//  height: 400px;
-  width: 40%;
+img#img-aboutwords {
+  margin-left: 10px;
 }
 
-#about-words {
-//  background-image: url('about-words.png');
-//  background-size: 100%;
-//  background-repeat: no-repeat;
-  float: right;
-  width: 60%;
-//  height: 400px;
-}
+//div#photo {
+//  float: left;
+////  background-image: url('IMG_9335.JPG');
+////  background-size: 100%;
+////  background-repeat: no-repeat;
+////  margin: 10px 15px 2px 0px;
+////  height: 400px;
+//  width: 40%;
+//}
+//
+//#about-words {
+////  background-image: url('about-words.png');
+////  background-size: 100%;
+////  background-repeat: no-repeat;
+//  float: right;
+//  width: 60%;
+////  height: 400px;
+//}
 
 #about-content {
   background-color: #5EABB5;
