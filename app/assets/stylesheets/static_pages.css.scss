@@ -160,6 +160,12 @@ span.text-content span {
   background-image: url('thisweb-thumb.jpg');
 }
 
+.bookcover {
+  background-image: url('bookcover-thumb.jpg');
+}
+
+
+
 #hireme {
   background-color: #5EABB5;
   overflow: hidden;
@@ -187,7 +193,7 @@ span.text-content span {
   padding-bottom: 40px;
 }
 
-a i:hover {
+a i.fa:hover {
 //  text-shadow: 0px 0px 30px rgba(255, 255, 255, 1);
 //   -moz-box-shadow:    inset 0 0 10px #000000;
 //   -webkit-box-shadow: inset 0 0 10px #000000;
