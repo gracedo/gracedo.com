@@ -33,18 +33,56 @@ div#photo {
 }
 
 #project-container {
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
   border: 1px #000000 solid;
   opacity: 1;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
+  transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -webkit-transition: opacity .3s ease-in-out;
+  color: #ffffff;
 }
 
-#project-container:hover {
-  background-color: rgba(143, 199, 163, 1);
-  opacity: 0.4;
+#project-container:hover span.text-content {
+//  background-color: rgba(143, 199, 163, 1);
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -webkit-transition: opacity .3s ease-in-out;
+}
+
+span.text-content {
+  background: rgba(143, 199, 163, 0.9);
+  color: white;
+  display: table;
+  height: 350px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 350px;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -webkit-transition: opacity .3s ease-in-out;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+//.tint {
+//  overflow: hidden;
+////  background-color: rgba(143, 199, 163, 1);
+//  background-color: #5EABB5;
+//  height: 350px;
+//  width: 350px;
+//  float: left;
+//}
+
+.cpp {
+  background-image: url('cpp-thumb.jpg');
 }
 
 #hireme {

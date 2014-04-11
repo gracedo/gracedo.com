@@ -24,6 +24,14 @@ var fadeIn = function() {
   $("body").delay(3).animate({ opacity: 1 }, 500);
 }
 
+var tintedProjects = function() {
+  $(function() {
+    $('div#project-container').each(function() {
+      $(this).wrap('<figure class="tint"></figure>');
+    });
+  });
+}
+
 // var blurredNav = function() {
 //   $('.navbar').blurjs({
 //     source: 'body',
@@ -58,6 +66,8 @@ var tooltipInit = function() {
 $(document).ready(function(){
   GracedoCom.initialize(); 
   fadeIn();
+  // tintedProjects();
+  projectHoverText();
   scrollMagicFxns();
   tooltipInit();
   
