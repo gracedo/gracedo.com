@@ -82,7 +82,7 @@ var blinkingText = function() {
 
 var placeAboutText = function() {
   var imgWidth = $('img.about-img').width();
-  $('#tagline').css("margin-left", imgWidth + 30);
+  $('h3#tagline').css("margin-left", imgWidth + 20);
 }
 
 $(document).ready(function(){
