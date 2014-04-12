@@ -21,7 +21,8 @@ $navbar-default-brand-hover-color: #000000;
 $navbar-default-border: rgba(255, 255, 255, 0.3);
 //$navbar-default-border: rgba(0, 0, 0, 0.3);
 $navbar-default-bg: rgba(232, 232, 232, 0.8);
-//$navbar-default-bg: rgba(143, 199, 163, 0.9);
+//$navbar-default-bg: rgba(94, 171, 181, 0.8);
+//$navbar-default-bg: rgba(143, 199, 163, 0.8);
 $navbar-default-link-hover-bg: transparent;
 $navbar-default-color: #000000;
 $navbar-default-link-color: #000000;
@@ -38,6 +39,7 @@ body {
   font-weight: 300;
   font-size: 14px;
   background-color: #E8E8E8;
+//  background-color: rgba(143, 199, 163, 1);
   color: #ffffff;
   text-align: justify;
   -webkit-font-smoothing: antialiased;
@@ -60,13 +62,27 @@ h1 {
   -webkit-box-shadow: 0px 3px 56px -14px rgba(0,0,0,1);
   -moz-box-shadow: 0px 3px 56px -14px rgba(0,0,0,1);
   box-shadow: 0px 3px 56px -14px rgba(0,0,0,1);
-  background-size: cover !important;
+//  background-size: cover !important;
+
+  background: repeating-linear-gradient(60deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8) 15px, rgba(245, 245, 245, 0.8) 15px, rgba(245, 245, 245, 0.8) 30px);
 //
 //  -webkit-filter: blur(20px);
 //  -moz-filter: blur(20px);
 //  -o-filter: blur(20px);
 //  -ms-filter: blur(20px);
 //  filter: blur(20px);
+//  background-image: linear-gradient(
+//    45deg, 
+//    rgba(black, 0.1)  25%, 
+//    transparent       25%, 
+//    transparent       50%, 
+//    rgba(black, 0.1)  50%, 
+//    rgba(black, 0.1)  75%, 
+//    transparent       75%, 
+//    transparent
+//  ); 
+//  background-image: url('stripes-transp.gif');
+//  background-repeat: repeat;
 }
 
 //#blur {
