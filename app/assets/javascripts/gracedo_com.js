@@ -10,7 +10,7 @@ window.GracedoCom = {
 var animateScroll = function() {
   $('.navlink').click(function(event) {
     event.preventDefault();
-    var navbarHeight = 200;
+    var navbarHeight = $('.navbar').height();
     var target = $(event.target).text();
     if(target === "gracedo") {
        $('body, html').animate({scrollTop: 0}, 500);
