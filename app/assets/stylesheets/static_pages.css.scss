@@ -210,8 +210,15 @@ h2#portfolio {
   overflow: hidden;
 }
 
-#hireme h1 {
+#hireme h1 a {
   font-size: 88px;
+  color: #ffffff;
+}
+
+#hireme h1 a:hover {
+  font-size: 88px;
+  color: #ffffff;
+  opacity: 0.6;
 }
 
 #contact {
