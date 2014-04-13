@@ -16,6 +16,7 @@
 //= require jquery.scrollmagic.min.js
 //= require TweenMax.min.js
 //= require blur.min.js
+//= require tracking_code.js
 //= require bootstrap
 //= require underscore
 //= require backbone
