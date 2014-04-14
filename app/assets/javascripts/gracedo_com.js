@@ -63,6 +63,14 @@ var tooltipInit = function() {
   });
 }
 
+function cursorAnimation() {
+    $('#cursor').animate({
+        opacity: 0
+    }, 'fast', 'swing').animate({
+        opacity: 1
+    }, 'fast', 'swing');
+}
+
 var blinkingText = function() {
   $(function() {
     var x = 0;
@@ -91,8 +99,9 @@ $(document).ready(function(){
   // tintedProjects();
   scrollMagicFxns();
   tooltipInit();
+  setInterval ('cursorAnimation()', 600);
   blinkingText();
-  placeAboutText();
+  // placeAboutText();
   
   // blurredNav();
   animateScroll();
