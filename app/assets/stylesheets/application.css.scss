@@ -15,11 +15,9 @@
  */
 
 $navbar-height: 120px;
-//$navbar-default-bg: #F0F0F0;
 $navbar-default-brand-hover-color: #000000;
 //$navbar-default-bg: rgba(255, 255, 255, 0.3);
 $navbar-default-border: rgba(255, 255, 255, 0.3);
-//$navbar-default-border: rgba(0, 0, 0, 0.3);
 $navbar-default-bg: rgba(232, 232, 232, 0.8);
 //$navbar-default-bg: rgba(94, 171, 181, 0.8);
 //$navbar-default-bg: rgba(143, 199, 163, 0.8);
@@ -66,12 +64,6 @@ h1 {
   background-size: cover !important;
 
 //  background: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8) 15px, rgba(245, 245, 245, 0.8) 15px, rgba(245, 245, 245, 0.8) 30px);
-//
-//  -webkit-filter: blur(20px);
-//  -moz-filter: blur(20px);
-//  -o-filter: blur(20px);
-//  -ms-filter: blur(20px);
-//  filter: blur(20px);
 //  background-image: linear-gradient(
 //    45deg, 
 //    rgba(black, 0.1)  25%, 
@@ -85,20 +77,6 @@ h1 {
 //  background-image: url('stripes-transp.gif');
 //  background-repeat: repeat;
 }
-
-//#blur {
-//  position: absolute;
-//  top: 0px;
-//  height: $navbar-height;
-//  background-color: rgba(232, 232, 232, 1);
-//  border: 3px black solid;
-//  
-//  -webkit-filter: blur(12px);
-//  -moz-filter: blur(12px);
-//  -o-filter: blur(12px);
-//  -ms-filter: blur(12px);
-//  filter: blur(12px);
-//}
 
 .navbar-brand {
   font-size: 78px;
@@ -115,7 +93,6 @@ h1 {
 
 a.navlink:hover:not(.navbar-brand) {
   font-weight: bold;
-//  text-shadow: 2px 2px 8px rgba(150, 150, 150, 1);
 }
 
 #contact-div a {
@@ -155,7 +132,6 @@ footer {
 }
  
 ::-webkit-scrollbar-thumb {
-//  background-color: rgba(0, 0, 0, 0.2);
   background-color: rgba(143, 199, 163, 1);
   border: 3px solid transparent;
   border-radius: 9px;
@@ -164,10 +140,6 @@ footer {
 
 ::-webkit-scrollbar-corner {
   background-color: #E8E8E8;
-}
-
-#about-words {
-  font-size: 36px;
 }
 
 a:hover {
