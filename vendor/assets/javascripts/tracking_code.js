@@ -5,4 +5,5 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-49954245-1', 'gracedo.com');
+  ga('require', 'displayfeatures');
   ga('send', 'pageview');
