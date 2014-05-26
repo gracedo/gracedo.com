@@ -28,7 +28,7 @@ var scrollMagicFxns = function() {
   // init controller
   var controller = new ScrollMagic();
   // var tweenHeaders = TweenMax.from("section #sec-header-move", 1, {marginRight: -900, ease: Back.easeOut});
-  var tweenHire = TweenMax.to('#hireme-text', 0.5, {scale: 2, ease: Back.easeOut});
+  var tweenHire = TweenMax.to('#popup-text', 0.5, {scale: 2, ease: Back.easeOut});
                 
   // var sceneHeaders = new ScrollScene({duration: 200, offset: -100})
 //               .triggerHook("onCenter")
@@ -36,7 +36,7 @@ var scrollMagicFxns = function() {
 //               .setTween(tweenHeaders)
 //               .addTo(controller);
   
-  var sceneHire = new ScrollScene({triggerElement: '#hireme'})
+  var sceneHire = new ScrollScene({triggerElement: '#popup'})
                 .setTween(tweenHire)
                 .addTo(controller);
 }
