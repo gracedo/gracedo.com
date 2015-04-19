@@ -30,7 +30,6 @@ $navbar-default-link-hover-color: #FFFFFF;
 
 @import "bootstrap";
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
-@import url('http://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('http://fonts.googleapis.com/css?family=Covered+By+Your+Grace');
 @import url('http://fonts.googleapis.com/css?family=Amatic+SC');
 
@@ -106,10 +105,6 @@ a.navlink:hover:not(.navbar-brand) {
 li .navlink {
   text-align: center;
   min-width: 90px;
-}
-
-#contact-div a {
-  color: #ffffff;
 }
 
 footer {

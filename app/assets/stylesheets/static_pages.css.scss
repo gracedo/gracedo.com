@@ -102,12 +102,20 @@ span.text-content span {
   padding: 20px;
 }
 
-h2#portfolio-header {
+#portfolio #header-text {
+  font-family: 'Covered By Your Grace', AvenirNextRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#portfolio h2#header-text {
   font-weight: 200;
   padding: 0;
   margin: 0;
   margin-bottom: 5px;
   font-size: 48px;
+}
+
+#portfolio h3 {
+  font-size: 32px;
 }
 
 .cpp {
@@ -201,6 +209,10 @@ h2#portfolio-header {
   width: 20%;
   border: 0px #000000 solid;
   padding-bottom: 40px;
+}
+
+#contact-div a {
+  color: #ffffff;
 }
 
 a i.fa:hover {
