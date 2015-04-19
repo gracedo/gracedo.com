@@ -35,9 +35,11 @@ var navColorChange = function() {
               $(".navbar-default").css('background-color', 'rgba(232, 232, 232, 0.8)');
               $(".navbar-default").css('border', 'rgba(232, 232, 232, 0.8)');
               $(".navlink").css('color', '#000000');
+              $(".navbar-brand").css('font-size', '40px');
            } else {
               $('.navbar-default').css('background-color', '#000000');
               $('.navlink').css('color', '#FFFFFF');
+              $(".navbar-brand").css('font-size', '60px');
            }
         });
     }
