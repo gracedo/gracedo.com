@@ -14,17 +14,19 @@
  *= require_tree .
  */
 
-$navbar-height: 120px;
-$navbar-default-brand-hover-color: #000000;
+$navbar-height: 100px;
+$navbar-default-brand-hover-color: #FFFFFF;
 //$navbar-default-bg: rgba(255, 255, 255, 0.3);
-$navbar-default-border: rgba(255, 255, 255, 0.3);
-$navbar-default-bg: rgba(232, 232, 232, 0.8);
+$navbar-default-border: #000000;
+// $navbar-default-border: rgba(255, 255, 255, 0.3);
+$navbar-default-bg: #000000;
+// $navbar-default-bg: rgba(232, 232, 232, 0.8);
 //$navbar-default-bg: rgba(94, 171, 181, 0.8);
 //$navbar-default-bg: rgba(143, 199, 163, 0.8);
 $navbar-default-link-hover-bg: transparent;
-$navbar-default-color: #000000;
-$navbar-default-link-color: #000000;
-$navbar-default-link-hover-color: #000000;
+$navbar-default-color: #FFFFFF;
+$navbar-default-link-color: #FFFFFF;
+$navbar-default-link-hover-color: #FFFFFF;
 
 @import "bootstrap";
 
@@ -79,7 +81,7 @@ h1 {
 }
 
 .navbar-brand {
-  font-size: 78px;
+  font-size: 60px;
   font-weight: 200;
 }
 
@@ -88,7 +90,7 @@ h1 {
 }
 
 .navbar-brand:hover {
-  text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);
+  text-shadow: 2px 2px 4px;
 }
 
 a.navlink:hover:not(.navbar-brand) {

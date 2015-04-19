@@ -24,6 +24,24 @@ var fadeIn = function() {
   $("body").delay(3).animate({ opacity: 1 }, 800);
 }
 
+var navColorChange = function() {
+    var scroll_start = 0;
+    var startchange = $('#startchange');
+    var offset = startchange.offset();
+    if (startchange.length){
+        $(document).scroll(function() { 
+          scroll_start = $(this).scrollTop();
+          if(scroll_start > offset.top) {
+              $(".navbar-default").css('background-color', 'rgba(232, 232, 232, 0.8)');
+              $(".navlink").css('color', '#000000');
+           } else {
+              $('.navbar-default').css('background-color', '#000000');
+              $('.navlink').css('color', '#FFFFFF');
+           }
+        });
+    }
+}
+
 var scrollMagicFxns = function() {
   // init controller
   var controller = new ScrollMagic();
@@ -73,8 +91,9 @@ var blinkingText = function() {
 }
 
 $(document).ready(function(){
-  GracedoCom.initialize(); 
+  GracedoCom.initialize();
   fadeIn();
+  navColorChange();
   scrollMagicFxns();
   tooltipInit();
   setInterval ('cursorAnimation()', 600);
