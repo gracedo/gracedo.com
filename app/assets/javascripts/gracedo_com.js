@@ -12,7 +12,7 @@ var animateScroll = function() {
     event.preventDefault();
     var navbarHeight = $('.navbar').height();
     var target = $(event.target).text();
-    if(target === "gracedo") {
+    if(target === "grace" || target === "gracedo") {
        $('body, html').animate({scrollTop: 0}, 500);
     } else {
       $('body, html').animate({scrollTop: ($('#'+target).offset().top - navbarHeight)}, 500);
