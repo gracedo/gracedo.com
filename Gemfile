@@ -53,7 +53,7 @@ group :production do
 end
 
 gem 'bootstrap-sass'
-gem 'font-awesome-sass'
+gem 'font-awesome-rails'
 gem 'backbone-on-rails'
 gem 'pry-rails'
 gem 'figaro'

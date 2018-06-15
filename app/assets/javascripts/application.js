@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery.ui.all
+//= require jquery-ui
 //= require jquery.scrollmagic.min.js
 //= require TweenMax.min.js
 //= require blur.min.js
