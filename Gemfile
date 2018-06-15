@@ -51,6 +51,10 @@ group :development do
   gem 'binding_of_caller'
 end
 
+group :production do
+  gem 'pg'
+end
+
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'backbone-on-rails'
