@@ -4,9 +4,6 @@ ruby '2.3.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
-# Use postgresql as the database for Active Record
-gem 'pg'
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 
@@ -52,7 +49,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 0.11'
 end
 
 gem 'bootstrap-sass'
