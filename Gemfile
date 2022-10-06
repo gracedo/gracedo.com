@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.7'
+ruby '3.0.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
@@ -54,7 +54,7 @@ end
 
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
-gem 'backbone-on-rails'
+# gem 'backbone-on-rails'
 gem 'pry-rails'
 gem 'figaro'
 gem 'jquery-ui-rails'
